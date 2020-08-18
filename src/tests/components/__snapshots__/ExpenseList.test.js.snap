@@ -10,7 +10,7 @@ exports[`should render ExpenseList with empty message 1`] = `
 
 exports[`should render ExpenseList with expenses 1`] = `
 <div>
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={195}
     createdAt={0}
     description="A"
@@ -18,7 +18,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     key="1"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={123}
     createdAt={-345600000}
     description="B"
@@ -26,7 +26,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     key="2"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={145}
     createdAt={259200000}
     description="C"
@@ -34,7 +34,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     key="3"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={166}
     createdAt={86400000}
     description="D"
@@ -42,7 +42,7 @@ exports[`should render ExpenseList with expenses 1`] = `
     key="4"
     note=""
   />
-  <Connect(ExpenseListItem)
+  <ExpenseListItem
     amount={23}
     createdAt={-86400000}
     description="E"
